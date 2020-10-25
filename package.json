@@ -1,0 +1,23 @@
+{
+  "name": "myblog",
+  "version": "0.1.0",
+  "description": "MySite",
+  "main": "index.js",
+  "scripts": {
+    "parcel": "parcel",
+    "start": "npm run parcel src/index.html",
+    "build": "npm run parcel build  src/index.html",
+    "release": "node publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeff-pitters/jeff-pitters.github.io.git"
+  },
+  "author": "Jeff Pitters",
+  "license": "ISC",
+  "homepage": "https://jeff-pitters.github.io",
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "parcel": "^1.12.4"
+  }
+}
